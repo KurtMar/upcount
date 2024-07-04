@@ -1,8 +1,27 @@
+
+# 📣 Version 2
+
+Happy to announce that I'm nearing the long overdue release of Upcount with improved functionality. The new version is a complete rewrite of the application with a focus on performance and stability.
+
+NB! It's not backwards compatible with the current version and will require a new installation. The new version is currently in alpha and not recommended for production use.
+
+## 🚀 [Upcount 2.0.0-alpha.1](https://github.com/madisvain/upcount/releases/tag/v2.0.0-alpha.1)
+
+Source code can be found on [Tauri](https://github.com/madisvain/upcount/tree/tauri) branch of the repository.
+
+The new version is built with
+
+* [Tauri](https://tauri.app/)
+* [SQLite](https://www.sqlite.org/index.html)
+* [React](https://reactjs.org/)
+* [Ant Design](https://ant.design/)
+
+I'd be happy to receive feedback on this new version and any feature requests you might have. Please open an issue on Github or email me at [madisvain@gmail.com](mailto:madisvain@gmail.com).
+
+
 # Upcount invoicing app
 
-![Github actions](https://github.com/madisvain/upcount/workflows/Release/badge.svg) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/madisvain/upcount?include_prereleases) ![GitHub](https://img.shields.io/github/license/madisvain/upcount) [![Slack](https://img.shields.io/badge/slack-upcount-green.svg?logo=slack)](https://join.slack.com/t/upcount/shared_invite/enQtOTY0Nzk5NTgzMjQ5LThlMWE3Y2YyNGY1MTc3M2Y1YmQ4YTdmZDYyNmJlYzBiNmQ0NTFhYjBkNzNjZjIwNWNlZDY2OTdiN2UwYzc3YWU)
-
-Upcount is a painless cross-platform invoicing application, built with [React](https://reactjs.org/) & [Electron](https://electronjs.org/) and simplicity in mind.
+![Github actions](https://github.com/madisvain/upcount/workflows/Release/badge.svg) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/madisvain/upcount?include_prereleases) ![GitHub](https://img.shields.io/github/license/madisvain/upcount)
 
 ![Invoice list](https://www.upcount.app/screenshots/invoices.png)
 [Invoice editing](https://www.upcount.app/screenshots/invoice-edit.png)
@@ -21,13 +40,15 @@ Upcount is available for Mac, Linux & Windows and can be downloaded from Github 
 * 👾 Use your own logo
 * 🍭 Customizable settings
 * 🌐 Internationalized
-* ©️ [GPLv3 License](https://github.com/madisvain/upcount/blob/master/LICENSE)
+* ©️ [GPLv3 License](https://github.com/madisvain/upcount/blob/main/LICENSE)
 
 # Languages
 * 🇬🇧 English
+* 🇳🇱 Dutch
 * 🇩🇪 German
 * 🇫🇮 Finnish 
 * 🇪🇪 Estonian
+* 🇫🇷 French
 
 If you are interested in adding a language translation to Upcount [please open a new issue](https://github.com/madisvain/upcount/issues).
 
@@ -40,11 +61,11 @@ npm run extract
 
 _`de` must be replaced with the language code you are adding._
 
-The translations are stored in .po files under [locales](https://github.com/madisvain/upcount/tree/master/src/locales) folder. A cross platform app named [POEdit](https://poedit.net/) could be used for translating them.
+The translations are stored in .po files under [locales](https://github.com/madisvain/upcount/tree/main/src/locales) folder. A cross platform app named [POEdit](https://poedit.net/) could be used for translating them.
 
 ## Bugs and Feature Requests
 
-Have a bug or a feature request? First, read the [issue guidelines](https://github.com/madisvain/upcount/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/madisvain/upcount/issues).
+Have a bug or a feature request? First, read the [issue guidelines](https://github.com/madisvain/upcount/blob/main/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/madisvain/upcount/issues).
 
 For more generic product questions and feedback please email [hello@upcount.app](mailto:hello@upcount.app)
 
@@ -59,4 +80,4 @@ Join Upcount [Slack workspace](https://join.slack.com/t/upcount/shared_invite/en
 
 ## License
 
-[GPLv3 License](https://github.com/madisvain/upcount/blob/master/LICENSE) &copy; [Upcount](https://upcount.app)
+[GPLv3 License](https://github.com/madisvain/upcount/blob/main/LICENSE) &copy; [Upcount](https://upcount.app)

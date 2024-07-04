@@ -1,4 +1,4 @@
 {
-  "presets": ["@babel/preset-react"],
-  "plugins": ["macros", "@babel/plugin-proposal-class-properties"]
+  "presets": ["next/babel"],
+  "plugins": ["jotai/babel/plugin-react-refresh"]
 }
